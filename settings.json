@@ -1,0 +1,9 @@
+{
+    "buffer_font_size": 14,
+    "theme": "sulphurpool-dark",
+    "language_overrides": {
+        "Markdown": {
+            "soft_wrap": "none"
+        }
+    }
+}

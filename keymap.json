@@ -1,0 +1,11 @@
+[
+    {
+        "context": "Editor",
+        "bindings": {
+            "cmd-d": "editor::DuplicateLine",
+            "cmd-alt-,": "zed::OpenKeymap",
+            "shift-ctrl-up": "editor::AddSelectionAbove",
+            "shift-ctrl-down": "editor::AddSelectionBelow"
+        }
+    }
+]
