@@ -1,7 +1,7 @@
 {
     "buffer_font_size": 14,
-    "theme": "sulphurpool-dark",
     "buffer_font_family": "Jetbrains Mono NL",
+    "theme": "andromeda",
     "language_overrides": {
         "Markdown": {
             "soft_wrap": "none"
