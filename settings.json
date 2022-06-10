@@ -1,10 +1,15 @@
 {
     "buffer_font_size": 14,
     "buffer_font_family": "Jetbrains Mono NL",
-    "theme": "andromeda",
     "language_overrides": {
-        "Markdown": {
-            "soft_wrap": "none"
+        "C": {
+            "format_on_save": false
+        },
+        "C++": {
+            "format_on_save": false
         }
-    }
+    },
+    "soft_wrap": "none",
+    "tab_size": 4,
+    "theme": "andromeda"
 }
