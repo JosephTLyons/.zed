@@ -1,5 +1,6 @@
 .DS_Store
 clangd
+gopls
 rust-analyzer
 typescript-language-server
 vscode-json-languageserver
