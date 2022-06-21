@@ -1,15 +1,18 @@
 {
     "buffer_font_size": 14,
-    "buffer_font_family": "Jetbrains Mono NL",
+    "buffer_font_family": "FiraCode-Regular.ttf",
     "language_overrides": {
         "C": {
             "format_on_save": false
         },
         "C++": {
             "format_on_save": false
+        },
+        "JSON": {
+            "format_on_save": true
         }
     },
-    "soft_wrap": "none",
+    "soft_wrap": "editor_width",
     "tab_size": 4,
     "theme": "andromeda"
 }
