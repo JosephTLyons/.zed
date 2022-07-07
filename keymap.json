@@ -3,6 +3,7 @@
         "context": "Editor",
         "bindings": {
             "cmd-d": "editor::DuplicateLine",
+            "cmd-shift-D": "editor::SelectNext",
             "shift-alt-up": "editor::AddSelectionAbove",
             "shift-alt-down": "editor::AddSelectionBelow"
         }
