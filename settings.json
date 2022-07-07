@@ -1,18 +1,24 @@
 {
+    "autosave": {
+        "after_delay": {
+            "milliseconds": 5000
+        }
+    },
     "buffer_font_size": 14,
     "buffer_font_family": "Jetbrains Mono NL",
     "language_overrides": {
         "C": {
-            "format_on_save": false
+            "format_on_save": "off"
         },
         "C++": {
-            "format_on_save": false
+            "format_on_save": "off"
         },
         "JSON": {
-            "format_on_save": true
+            "format_on_save": "off"
         }
     },
     "soft_wrap": "editor_width",
     "tab_size": 4,
-    "theme": "andromeda"
+    "theme": "andromeda",
+    "vim_mode": false
 }
