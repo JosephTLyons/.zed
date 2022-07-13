@@ -1,9 +1,5 @@
 {
-    "autosave": {
-        "after_delay": {
-            "milliseconds": 5000
-        }
-    },
+    "autosave": "off",
     "buffer_font_size": 14,
     "buffer_font_family": "Jetbrains Mono NL",
     "language_overrides": {
@@ -19,6 +15,6 @@
     },
     "soft_wrap": "editor_width",
     "tab_size": 4,
-    "theme": "andromeda",
+    "theme": "cave-light",
     "vim_mode": false
 }
