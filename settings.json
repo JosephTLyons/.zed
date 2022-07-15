@@ -1,20 +1,26 @@
 {
-    "autosave": "off",
-    "buffer_font_size": 14,
     "buffer_font_family": "Jetbrains Mono NL",
-    "language_overrides": {
+    "buffer_font_size": 14,
+    "projects_online_by_default": false,
+    "soft_wrap": "editor_width",
+    "languages": {
         "C": {
+            "tab_size": 4,
             "format_on_save": "off"
         },
         "C++": {
+            "tab_size": 4,
             "format_on_save": "off"
         },
-        "JSON": {
-            "format_on_save": "language_server"
+        "JavaScript": {
+            "tab_size": 4
+        },
+        "TypeScript": {
+            "tab_size": 2
+        },
+        "TSX": {
+            "tab_size": 2
         }
     },
-    "soft_wrap": "editor_width",
-    "tab_size": 4,
-    "theme": "cave-light",
-    "vim_mode": false
+    "theme": "andromeda"
 }
