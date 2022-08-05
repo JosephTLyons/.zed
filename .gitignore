@@ -1,7 +1,1 @@
 .DS_Store
-clangd
-gopls
-pyright
-rust-analyzer
-typescript-language-server
-vscode-json-languageserver
