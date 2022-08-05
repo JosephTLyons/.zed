@@ -3,7 +3,17 @@
     "buffer_font_size": 14,
     "projects_online_by_default": false,
     "soft_wrap": "editor_width",
-    "languages": {
+    "language_overrides": {
+        "Python": {
+            "format_on_save": {
+                "external": {
+                    "command": "black",
+                    "arguments": [
+                        "-"
+                    ]
+                }
+            }
+        },
         "C": {
             "tab_size": 4,
             "format_on_save": "off"
@@ -22,5 +32,13 @@
             "tab_size": 2
         }
     },
-    "theme": "andromeda"
+    "theme": "one-dark",
+    "journal": {
+        "hour_format": "hour12",
+        "journal_directory": {
+            "always": {
+                "directory": "/Users/josephlyons/Desktop/journal"
+            }
+        }
+    }
 }
