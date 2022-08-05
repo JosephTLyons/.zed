@@ -3,7 +3,7 @@
         "context": "Editor",
         "bindings": {
             "cmd-d": "editor::DuplicateLine",
-            "cmd-shift-D": "editor::SelectNext",
+            "cmd-shift-d": "editor::SelectNext",
             "shift-alt-up": "editor::AddSelectionAbove",
             "shift-alt-down": "editor::AddSelectionBelow"
         }
@@ -12,7 +12,7 @@
         "context": "Workspace",
         "bindings": {
             "cmd-\\": "workspace::ToggleLeftSidebar",
-            "cmd-shift-|": "workspace::ToggleRightSidebar"
+            "cmd-|": "workspace::ToggleRightSidebar"
             // TODO - Later
             // "cmd-shift-C": "project_panel::Toggle",
             // "cmd-shift-C": "contacts_panel::Toggle"
