@@ -33,7 +33,7 @@
             "tab_size": 2
         }
     },
-    "theme": "one-dark",
+    "theme": "andromeda",
     "journal": {
         "hour_format": "hour12",
         "journal_directory": {
