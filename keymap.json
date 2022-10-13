@@ -12,10 +12,7 @@
         "context": "Workspace",
         "bindings": {
             "cmd-\\": "workspace::ToggleLeftSidebar",
-            "cmd-|": "workspace::ToggleRightSidebar"
-            // TODO - Later
-            // "cmd-shift-C": "project_panel::Toggle",
-            // "cmd-shift-C": "contacts_panel::Toggle"
+            "cmd-|": "collab::ToggleCollaborationMenu"
         }
     },
     {
