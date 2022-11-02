@@ -33,9 +33,8 @@
             "tab_size": 2
         }
     },
-    "theme": "andromeda",
+    "theme": "Internal/Tokyo Night Storm",
     "journal": {
-        "path": "~/Desktop/journal",
         "hour_format": "hour12"
     },
     "staff_mode": true
