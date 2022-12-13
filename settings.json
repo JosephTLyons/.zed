@@ -1,41 +1,47 @@
 {
-    "buffer_font_family": "Jetbrains Mono NL",
-    "buffer_font_size": 12,
-    "default_dock_anchor": "right",
-    "projects_online_by_default": false,
-    "soft_wrap": "editor_width",
-    "language_overrides": {
-        "Python": {
-            // "format_on_save": {
-            //     "external": {
-            //         "command": "black",
-            //         "arguments": [
-            //             "-"
-            //         ]
-            //     }
-            // }
-        },
-        "C": {
-            "tab_size": 4,
-            "format_on_save": "off"
-        },
-        "C++": {
-            "tab_size": 4,
-            "format_on_save": "off"
-        },
-        "JavaScript": {
-            "tab_size": 2
-        },
-        "TypeScript": {
-            "tab_size": 2
-        },
-        "TSX": {
-            "tab_size": 2
-        }
+  "buffer_font_family": "Jetbrains Mono NL",
+  "buffer_font_size": 12,
+  "default_dock_anchor": "right",
+  "projects_online_by_default": false,
+  "soft_wrap": "editor_width",
+  "language_overrides": {
+    "Python": {
+      // "format_on_save": {
+      //     "external": {
+      //         "command": "black",
+      //         "arguments": [
+      //             "-"
+      //         ]
+      //     }
+      // }
     },
-    "theme": "Internal/Tokyo Night Storm",
-    "journal": {
-        "hour_format": "hour12"
+    "C": {
+      "tab_size": 4,
+      "format_on_save": "off"
     },
-    "staff_mode": true
+    "C++": {
+      "tab_size": 4,
+      "format_on_save": "off"
+    },
+    "JavaScript": {
+      "tab_size": 2
+    },
+    "JSON": {
+      "tab_size": 2
+    },
+    "TypeScript": {
+      "tab_size": 2
+    },
+    "TSX": {
+      "tab_size": 2
+    }
+  },
+  "theme": "Internal/Gruvbox Dark Medium",
+  "journal": {
+    "hour_format": "hour12"
+  },
+  // The factor to grow the active pane by. Defaults to 1.0
+  // which gives the same size as all other panes.
+  // "active_pane_magnification": 2.0,
+  "staff_mode": true
 }
