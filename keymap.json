@@ -1,23 +1,25 @@
 [
-    {
-        "context": "Editor",
-        "bindings": {
-            "cmd-d": "editor::DuplicateLine",
-            "cmd-shift-d": "editor::SelectNext",
-            "shift-alt-up": "editor::AddSelectionAbove",
-            "shift-alt-down": "editor::AddSelectionBelow"
-        }
-    },
-    {
-        "context": "Workspace",
-        "bindings": {
-            "cmd-\\": "workspace::ToggleLeftSidebar",
-            "cmd-|": "collab::ToggleCollaborationMenu"
-        }
-    },
-    {
-        "bindings": {
-            "cmd-alt-,": "zed::OpenKeymap"
-        }
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-d": "editor::DuplicateLine",
+      "cmd-shift-d": "editor::SelectNext",
+      "shift-alt-up": "editor::AddSelectionAbove",
+      "shift-alt-down": "editor::AddSelectionBelow",
+      "ctrl-alt-shift-down": "editor::GoToHunk",
+      "ctrl-alt-shift-up": "editor::GoToPrevHunk"
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-\\": "workspace::ToggleLeftSidebar",
+      "cmd-|": "collab::ToggleCollaborationMenu"
+    }
+  },
+  {
+    "bindings": {
+      "cmd-alt-,": "zed::OpenKeymap"
+    }
+  }
 ]
