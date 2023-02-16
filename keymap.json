@@ -7,7 +7,13 @@
       "shift-alt-up": "editor::AddSelectionAbove",
       "shift-alt-down": "editor::AddSelectionBelow",
       "ctrl-alt-shift-down": "editor::GoToHunk",
-      "ctrl-alt-shift-up": "editor::GoToPrevHunk"
+      "ctrl-alt-shift-up": "editor::GoToPrevHunk",
+      "cmd-/": [
+        "editor::ToggleComments",
+        {
+          "advance_downwards": true
+        }
+      ]
     }
   },
   {
