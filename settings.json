@@ -1,4 +1,9 @@
 {
+  "base_keymap": "VSCode",
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
+  },
   "buffer_font_family": "Jetbrains Mono NL",
   "buffer_font_size": 12,
   "default_dock_anchor": "right",
@@ -24,7 +29,7 @@
       "format_on_save": "off"
     },
     "JavaScript": {
-      "tab_size": 2
+      "tab_size": 4
     },
     "JSON": {
       "tab_size": 2
@@ -33,10 +38,10 @@
       "tab_size": 2
     },
     "TSX": {
-      "tab_size": 2
+      "tab_size": 4
     }
   },
-  "theme": "Solarized Dark",
+  "theme": "One Dark",
   "journal": {
     "hour_format": "hour12"
   },
