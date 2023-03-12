@@ -6,7 +6,6 @@
   },
   "buffer_font_family": "Jetbrains Mono NL",
   "buffer_font_size": 12,
-  "default_dock_anchor": "right",
   "projects_online_by_default": false,
   "soft_wrap": "editor_width",
   "language_overrides": {
@@ -35,13 +34,13 @@
       "tab_size": 2
     },
     "TypeScript": {
-      "tab_size": 2
+      "tab_size": 4
     },
     "TSX": {
       "tab_size": 4
     }
   },
-  "theme": "One Dark",
+  "theme": "staff/Atelier Heath Light",
   "journal": {
     "hour_format": "hour12"
   },
