@@ -20,7 +20,7 @@
     "context": "Workspace",
     "bindings": {
       "cmd-\\": "workspace::ToggleLeftSidebar",
-      "cmd-|": "collab::ToggleCollaborationMenu"
+      "cmd-|": "collab::ToggleContactsMenu"
     }
   },
   {
