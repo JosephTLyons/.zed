@@ -24,6 +24,13 @@
     }
   },
   {
+    "context": "ProjectPanel",
+    "bindings": {
+      "cmd-n": "project_panel::NewFile",
+      "alt-cmd-n": "project_panel::NewDirectory"
+    }
+  },
+  {
     "bindings": {
       "cmd-alt-,": "zed::OpenKeymap"
     }
