@@ -11,14 +11,14 @@
   "soft_wrap": "editor_width",
   "language_overrides": {
     "Python": {
-      // "format_on_save": {
-      //     "external": {
-      //         "command": "black",
-      //         "arguments": [
-      //             "-"
-      //         ]
-      //     }
-      // }
+      "format_on_save": {
+        "external": {
+          "command": "black",
+          "arguments": [
+            "-"
+          ]
+        }
+      }
     },
     "C": {
       "tab_size": 4,
