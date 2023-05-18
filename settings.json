@@ -11,7 +11,8 @@
   "soft_wrap": "editor_width",
   "language_overrides": {
     "Python": {
-      "format_on_save": {
+      "format_on_save": "off",
+      "formatter": {
         "external": {
           "command": "black",
           "arguments": [
@@ -41,7 +42,7 @@
       "tab_size": 4
     }
   },
-  "theme": "One Dark",
+  "theme": "Ayu Mirage",
   "journal": {
     "hour_format": "hour12"
   },
@@ -49,9 +50,11 @@
   // which gives the same size as all other panes.
   // "active_pane_magnification": 2.0,
   "staff_mode": true,
-  "terminal": {
-    "shell": {
-      "program": "nu"
-    }
-  }
+  // "terminal": {
+  //   "shell": {
+  //     "program": "nu"
+  //   }
+  // },
+  "show_whitespaces": "none",
+  "show_scrollbars": "auto"
 }
