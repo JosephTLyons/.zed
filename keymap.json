@@ -19,7 +19,8 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-\\": "workspace::ToggleLeftSidebar",
+      "cmd-\\": "workspace::ToggleRightDock",
+      "cmd-b": "workspace::ToggleBottomDock",
       "cmd-|": "collab::ToggleContactsMenu"
     }
   },
