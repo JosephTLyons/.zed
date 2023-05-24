@@ -19,8 +19,18 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-\\": "workspace::ToggleRightDock",
-      "cmd-b": "workspace::ToggleBottomDock",
+      "cmd-\\": [
+        "workspace::ToggleRightDock",
+        {
+          "focus": true
+        }
+      ],
+      "cmd-b": [
+        "workspace::ToggleBottomDock",
+        {
+          "focus": true
+        }
+      ],
       "cmd-|": "collab::ToggleContactsMenu"
     }
   },
