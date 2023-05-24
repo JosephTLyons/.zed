@@ -6,7 +6,6 @@
   },
   "buffer_font_family": "Jetbrains Mono NL",
   "buffer_font_size": 12,
-  "default_dock_anchor": "right",
   "projects_online_by_default": false,
   "soft_wrap": "editor_width",
   "language_overrides": {
