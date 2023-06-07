@@ -41,13 +41,13 @@
       "tab_size": 4
     }
   },
-  "theme": "Atelier Savanna Dark",
+  "theme": "Atelier Lakeside Dark",
   "journal": {
     "hour_format": "hour12"
   },
   // "active_pane_magnification": 2.0,
   "staff_mode": true,
-  "show_whitespaces": "none",
+  "show_whitespaces": "selection",
   "scrollbar": {
     "git_diff": true,
     "show": "auto"
