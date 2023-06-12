@@ -52,6 +52,9 @@
     "git_diff": true,
     "show": "auto"
   },
+  "assistant": {
+    "dock": "left"
+  },
   "project_panel": {
     "dock": "right"
   },
