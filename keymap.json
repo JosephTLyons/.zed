@@ -31,7 +31,12 @@
           "focus": true
         }
       ],
-      "cmd-|": "collab::ToggleContactsMenu"
+      "cmd-|": [
+        "workspace::ToggleLeftDock",
+        {
+          "focus": true
+        }
+      ]
     }
   },
   {
