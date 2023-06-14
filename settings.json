@@ -63,5 +63,6 @@
     // "shell": {
     //   "program": "nu"
     // }
-  }
+  },
+  "extend_comment_on_newline": false
 }
