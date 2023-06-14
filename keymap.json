@@ -19,24 +19,9 @@
   {
     "context": "Workspace",
     "bindings": {
-      "cmd-\\": [
-        "workspace::ToggleRightDock",
-        {
-          "focus": true
-        }
-      ],
-      "cmd-b": [
-        "workspace::ToggleBottomDock",
-        {
-          "focus": true
-        }
-      ],
-      "cmd-|": [
-        "workspace::ToggleLeftDock",
-        {
-          "focus": true
-        }
-      ]
+      "cmd-\\": "workspace::ToggleRightDock",
+      "cmd-b": "workspace::ToggleBottomDock",
+      "cmd-|": "workspace::ToggleLeftDock"
     }
   },
   {
