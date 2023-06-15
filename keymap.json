@@ -13,6 +13,13 @@
         {
           "advance_downwards": true
         }
+      ],
+      "cmd-shift-u": "editor::UndoSelection",
+      "cmd-shift-k cmd-shift-d": [
+        "editor::SelectNext",
+        {
+          "replace_newest": true
+        }
       ]
     }
   },
