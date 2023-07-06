@@ -1,4 +1,10 @@
 {
+  "copilot": {
+    "disabled_globs": [
+      ".env",
+      "debug_1.txt"
+    ]
+  },
   "base_keymap": "VSCode",
   "telemetry": {
     "diagnostics": true,
@@ -9,6 +15,9 @@
   "projects_online_by_default": false,
   "soft_wrap": "editor_width",
   "language_overrides": {
+    "Plain Text": {
+      "show_copilot_suggestions": false
+    },
     "Python": {
       "format_on_save": "off",
       "formatter": {
@@ -41,7 +50,7 @@
       "tab_size": 4
     }
   },
-  "theme": "Solarized Dark",
+  "theme": "One Light",
   "journal": {
     "hour_format": "hour12"
   },
@@ -64,5 +73,41 @@
     //   "program": "nu"
     // }
   },
-  "extend_comment_on_newline": false
+  "extend_comment_on_newline": false,
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  },
+  "lsp": {
+    "rust-analyzer": {
+      "initialization_options": {
+        "inlayHints": {
+          "maxLength": null,
+          "lifetimeElisionHints": {
+            "useParameterNames": true,
+            "enable": "skip_trivial"
+          },
+          "closureReturnTypeHints": {
+            "enable": "always"
+          }
+        }
+      }
+    },
+    "typescript-language-server": {
+      "initialization_options": {
+        "preferences": {
+          "includeInlayParameterNameHints": "all",
+          "includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+          "includeInlayFunctionParameterTypeHints": true,
+          "includeInlayVariableTypeHints": true,
+          "includeInlayVariableTypeHintsWhenTypeMatchesName": false,
+          "includeInlayPropertyDeclarationTypeHints": true,
+          "includeInlayFunctionLikeReturnTypeHints": true,
+          "includeInlayEnumMemberValueHints": true
+        }
+      }
+    }
+  }
 }
