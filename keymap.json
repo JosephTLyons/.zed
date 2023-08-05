@@ -20,7 +20,9 @@
         {
           "replace_newest": true
         }
-      ]
+      ],
+      "cmd-k cmd-u": "editor::ConvertToUpperCase",
+      "cmd-k cmd-l": "editor::ConvertToLowerCase"
     }
   },
   {
