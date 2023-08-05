@@ -50,7 +50,7 @@
       "tab_size": 4
     }
   },
-  "theme": "One Light",
+  "theme": "Summercamp",
   "journal": {
     "hour_format": "hour12"
   },
@@ -75,7 +75,7 @@
   },
   "extend_comment_on_newline": false,
   "inlay_hints": {
-    "enabled": true,
+    "enabled": false,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true
@@ -109,5 +109,15 @@
         }
       }
     }
-  }
+  },
+  "semantic_index": {
+    "enabled": true
+  },
+  "tabs": {
+    "git_status": true
+  },
+  "wrap_guides": [
+    80,
+    100
+  ]
 }
