@@ -11,7 +11,7 @@
     "metrics": true
   },
   "buffer_font_family": "Jetbrains Mono NL",
-  "buffer_font_size": 12,
+  "buffer_font_size": 14,
   "projects_online_by_default": false,
   "soft_wrap": "editor_width",
   "language_overrides": {
@@ -50,7 +50,7 @@
       "tab_size": 4
     }
   },
-  "theme": "Summercamp",
+  "theme": "Atelier Seaside Light",
   "journal": {
     "hour_format": "hour12"
   },
@@ -69,9 +69,9 @@
   },
   "terminal": {
     "dock": "bottom"
-    // "shell": {
-    //   "program": "nu"
-    // }
+  },
+  "collaboration_panel": {
+    "dock": "left"
   },
   "extend_comment_on_newline": false,
   "inlay_hints": {
@@ -117,7 +117,6 @@
     "git_status": true
   },
   "wrap_guides": [
-    80,
-    100
+    80
   ]
 }
