@@ -1,9 +1,6 @@
 {
   "copilot": {
-    "disabled_globs": [
-      ".env",
-      "debug_1.txt"
-    ]
+    "disabled_globs": [".env", "debug_1.txt"]
   },
   "base_keymap": "VSCode",
   "telemetry": {
@@ -23,9 +20,7 @@
       "formatter": {
         "external": {
           "command": "black",
-          "arguments": [
-            "-"
-          ]
+          "arguments": ["-"]
         }
       }
     },
@@ -44,13 +39,14 @@
       "tab_size": 2
     },
     "TypeScript": {
-      "tab_size": 4
+      "tab_size": 4,
+      "formatter": "prettier"
     },
     "TSX": {
       "tab_size": 4
     }
   },
-  "theme": "Atelier Seaside Light",
+  "theme": "Atelier Estuary Dark",
   "journal": {
     "hour_format": "hour12"
   },
@@ -73,6 +69,9 @@
   "collaboration_panel": {
     "dock": "left"
   },
+  "notification_panel": {
+    "dock": "left"
+  },
   "extend_comment_on_newline": false,
   "inlay_hints": {
     "enabled": false,
@@ -93,19 +92,19 @@
             "enable": "always"
           }
         }
-      }
-    },
-    "typescript-language-server": {
-      "initialization_options": {
-        "preferences": {
-          "includeInlayParameterNameHints": "all",
-          "includeInlayParameterNameHintsWhenArgumentMatchesName": true,
-          "includeInlayFunctionParameterTypeHints": true,
-          "includeInlayVariableTypeHints": true,
-          "includeInlayVariableTypeHintsWhenTypeMatchesName": false,
-          "includeInlayPropertyDeclarationTypeHints": true,
-          "includeInlayFunctionLikeReturnTypeHints": true,
-          "includeInlayEnumMemberValueHints": true
+      },
+      "typescript-language-server": {
+        "initialization_options": {
+          "preferences": {
+            "includeInlayParameterNameHints": "all",
+            "includeInlayParameterNameHintsWhenArgumentMatchesName": true,
+            "includeInlayFunctionParameterTypeHints": true,
+            "includeInlayVariableTypeHints": true,
+            "includeInlayVariableTypeHintsWhenTypeMatchesName": false,
+            "includeInlayPropertyDeclarationTypeHints": true,
+            "includeInlayFunctionLikeReturnTypeHints": true,
+            "includeInlayEnumMemberValueHints": true
+          }
         }
       }
     }
@@ -116,7 +115,11 @@
   "tabs": {
     "git_status": true
   },
-  "wrap_guides": [
-    80
-  ]
+  "wrap_guides": [80],
+  "elixir": {
+    "lsp": "next_ls"
+  },
+  "calls": {
+    "mute_on_join": true
+  }
 }
