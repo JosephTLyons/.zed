@@ -1,5 +1,10 @@
 [
   {
+    "bindings": {
+      "cmd-alt-,": "zed::OpenKeymap"
+    }
+  },
+  {
     "context": "Editor",
     "bindings": {
       "cmd-d": "editor::DuplicateLine",
@@ -41,8 +46,10 @@
     }
   },
   {
+    "context": "Editor && (showing_code_actions || showing_completions)",
     "bindings": {
-      "cmd-alt-,": "zed::OpenKeymap"
+      "cmd-up": "editor::ContextMenuFirst",
+      "cmd-down": "editor::ContextMenuLast"
     }
   }
 ]
