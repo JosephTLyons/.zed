@@ -46,7 +46,7 @@
       "tab_size": 4
     }
   },
-  "theme": "Atelier Estuary Dark",
+  "theme": "Solarized Dark",
   "journal": {
     "hour_format": "hour12"
   },
@@ -74,7 +74,7 @@
   },
   "extend_comment_on_newline": false,
   "inlay_hints": {
-    "enabled": false,
+    "enabled": true,
     "show_type_hints": true,
     "show_parameter_hints": true,
     "show_other_hints": true
