@@ -1,16 +1,32 @@
 {
+  "assistant": {
+    "dock": "left"
+  },
+  "base_keymap": "VSCode",
+  "buffer_font_family": "Jetbrains Mono NL",
+  "buffer_font_size": 14,
+  "calls": {
+    "mute_on_join": true
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
   "copilot": {
     "disabled_globs": [".env", "debug_1.txt"]
   },
-  "base_keymap": "VSCode",
-  "telemetry": {
-    "diagnostics": true,
-    "metrics": true
+  "elixir": {
+    "lsp": "next_ls"
   },
-  "buffer_font_family": "Jetbrains Mono NL",
-  "buffer_font_size": 14,
-  "projects_online_by_default": false,
-  "soft_wrap": "editor_width",
+  "extend_comment_on_newline": false,
+  "inlay_hints": {
+    "enabled": false,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true
+  },
+  "journal": {
+    "hour_format": "hour12"
+  },
   "language_overrides": {
     "Plain Text": {
       "show_copilot_suggestions": false
@@ -46,39 +62,6 @@
       "tab_size": 4
     }
   },
-  "theme": "Solarized Dark",
-  "journal": {
-    "hour_format": "hour12"
-  },
-  // "active_pane_magnification": 2.0,
-  "staff_mode": true,
-  "show_whitespaces": "selection",
-  "scrollbar": {
-    "git_diff": true,
-    "show": "auto"
-  },
-  "assistant": {
-    "dock": "left"
-  },
-  "project_panel": {
-    "dock": "right"
-  },
-  "terminal": {
-    "dock": "bottom"
-  },
-  "collaboration_panel": {
-    "dock": "left"
-  },
-  "notification_panel": {
-    "dock": "left"
-  },
-  "extend_comment_on_newline": false,
-  "inlay_hints": {
-    "enabled": false,
-    "show_type_hints": true,
-    "show_parameter_hints": true,
-    "show_other_hints": true
-  },
   "lsp": {
     "rust-analyzer": {
       "initialization_options": {
@@ -109,18 +92,34 @@
       }
     }
   },
+  "project_panel": {
+    "dock": "right"
+  },
+  "notification_panel": {
+    "dock": "left"
+  },
+  "projects_online_by_default": false,
+  "scrollbar": {
+    "git_diff": true,
+    "show": "auto"
+  },
   "semantic_index": {
     "enabled": true
   },
+  "staff_mode": true,
+  "seed_search_query_from_cursor": "selection",
+  "show_whitespaces": "selection",
+  "soft_wrap": "editor_width",
   "tabs": {
     "git_status": true
   },
-  "wrap_guides": [80],
-  "elixir": {
-    "lsp": "next_ls"
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": true
   },
-  "calls": {
-    "mute_on_join": true
+  "theme": "Solarized Dark",
+  "terminal": {
+    "dock": "bottom"
   },
-  "seed_search_query_from_cursor": "selection"
+  "wrap_guides": [80]
 }
