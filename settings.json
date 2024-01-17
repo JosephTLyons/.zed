@@ -1,9 +1,13 @@
 {
+  "vim_mode": false,
+  "chat_panel": {
+    "dock": "right"
+  },
   "assistant": {
     "dock": "left"
   },
   "base_keymap": "VSCode",
-  "buffer_font_family": "Jetbrains Mono NL",
+  "buffer_font_family": "JetBrains Mono NL",
   "buffer_font_size": 14,
   "calls": {
     "mute_on_join": true
@@ -28,6 +32,9 @@
     "hour_format": "hour12"
   },
   "language_overrides": {
+    "Uiua": {
+      "show_copilot_suggestions": false
+    },
     "Plain Text": {
       "show_copilot_suggestions": false
     },
@@ -59,6 +66,9 @@
       "formatter": "prettier"
     },
     "TSX": {
+      "tab_size": 4
+    },
+    "YAML": {
       "tab_size": 4
     }
   },
@@ -101,6 +111,7 @@
   "projects_online_by_default": false,
   "scrollbar": {
     "git_diff": true,
+    "selections": true,
     "show": "auto"
   },
   "semantic_index": {
@@ -117,9 +128,10 @@
     "diagnostics": true,
     "metrics": true
   },
-  "theme": "Solarized Dark",
+  "theme": "Atelier Estuary Dark",
   "terminal": {
     "dock": "bottom"
   },
+  "ui_font_family": "Jetbrains Mono NL",
   "wrap_guides": [80]
 }
