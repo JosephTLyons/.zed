@@ -51,5 +51,11 @@
       "cmd-up": "editor::ContextMenuFirst",
       "cmd-down": "editor::ContextMenuLast"
     }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-shift-f": "workspace::NewSearch"
+    }
   }
 ]
