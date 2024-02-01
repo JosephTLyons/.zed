@@ -128,10 +128,10 @@
     "diagnostics": true,
     "metrics": true
   },
-  "theme": "Atelier Estuary Dark",
+  "theme": "Gruvbox Dark Soft",
   "terminal": {
     "dock": "bottom"
   },
-  "ui_font_family": "Jetbrains Mono NL",
+  "ui_font_family": "JetBrains Mono NL",
   "wrap_guides": [80]
 }
