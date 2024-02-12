@@ -128,9 +128,12 @@
     "diagnostics": true,
     "metrics": true
   },
-  "theme": "Gruvbox Dark Soft",
+  "theme": "Atelier Lakeside Light",
   "terminal": {
-    "dock": "bottom"
+    "dock": "bottom",
+    "shell": {
+      "program": "nu"
+    }
   },
   "ui_font_family": "JetBrains Mono NL",
   "wrap_guides": [80]
