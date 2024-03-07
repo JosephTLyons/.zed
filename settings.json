@@ -55,11 +55,21 @@
       "tab_size": 4,
       "format_on_save": "off"
     },
+    "Elisp": {
+      "tab_size": 2
+    },
     "JavaScript": {
       "tab_size": 4
     },
     "JSON": {
       "tab_size": 2
+    },
+    "Markdown": {
+      "format_on_save": "off",
+      "tab_size": 4
+    },
+    "SQL": {
+      "tab_size": 4
     },
     "TypeScript": {
       "tab_size": 4,
