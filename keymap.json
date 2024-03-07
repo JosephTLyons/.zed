@@ -7,23 +7,12 @@
   {
     "context": "Editor",
     "bindings": {
-      "cmd-d": "editor::DuplicateLine",
-      "cmd-shift-d": "editor::SelectNext",
-      "shift-alt-up": "editor::AddSelectionAbove",
-      "shift-alt-down": "editor::AddSelectionBelow",
       "ctrl-alt-shift-down": "editor::GoToHunk",
       "ctrl-alt-shift-up": "editor::GoToPrevHunk",
       "cmd-/": [
         "editor::ToggleComments",
         {
           "advance_downwards": true
-        }
-      ],
-      "cmd-shift-u": "editor::UndoSelection",
-      "cmd-shift-k cmd-shift-d": [
-        "editor::SelectNext",
-        {
-          "replace_newest": true
         }
       ],
       "cmd-k cmd-u": "editor::ConvertToUpperCase",
@@ -36,13 +25,6 @@
       "cmd-\\": "workspace::ToggleRightDock",
       "cmd-b": "workspace::ToggleBottomDock",
       "cmd-|": "workspace::ToggleLeftDock"
-    }
-  },
-  {
-    "context": "ProjectPanel",
-    "bindings": {
-      "cmd-n": "project_panel::NewFile",
-      "alt-cmd-n": "project_panel::NewDirectory"
     }
   },
   {
