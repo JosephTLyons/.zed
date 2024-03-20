@@ -20,14 +20,6 @@
     }
   },
   {
-    "context": "Workspace",
-    "bindings": {
-      "cmd-\\": "workspace::ToggleRightDock",
-      "cmd-b": "workspace::ToggleBottomDock",
-      "cmd-|": "workspace::ToggleLeftDock"
-    }
-  },
-  {
     "context": "Editor && (showing_code_actions || showing_completions)",
     "bindings": {
       "cmd-up": "editor::ContextMenuFirst",
@@ -38,6 +30,21 @@
     "context": "Pane",
     "bindings": {
       "cmd-shift-f": "workspace::NewSearch"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-n": "workspace::NewTerminal"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-\\": "workspace::ToggleRightDock",
+      "cmd-b": "workspace::ToggleBottomDock",
+      "cmd-|": "workspace::ToggleLeftDock",
+      "ctrl-~": "workspace::NewTerminal"
     }
   }
 ]
