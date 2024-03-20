@@ -37,7 +37,7 @@
       "show_copilot_suggestions": false
     },
     "Plain Text": {
-      "show_copilot_suggestions": false
+      "show_copilot_suggestions": true
     },
     "Python": {
       "format_on_save": "off",
@@ -141,11 +141,29 @@
   },
   "theme": "Dracula",
   "terminal": {
-    "dock": "bottom",
-    "shell": {
-      "program": "nu"
-    }
+    "dock": "bottom"
+    // "shell": {
+    //   "program": "nu"
+    // }
   },
   "ui_font_family": "JetBrains Mono NL",
-  "wrap_guides": [80]
+  "wrap_guides": [80],
+  // "nightly": {
+  //   "experimental.theme_overrides": {
+  //     "title_bar.background": "#D0B54E"
+  //   }
+  // },
+  "preview": {
+    "experimental.theme_overrides": {
+      "title_bar.background": "#a6b7e7"
+    }
+  },
+  "dev": {
+    "experimental.theme_overrides": {
+      "title_bar.background": "#e7a6a6"
+    }
+  },
+  "file_types": {
+    "Gleam": ["x"]
+  }
 }
