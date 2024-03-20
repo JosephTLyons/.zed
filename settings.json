@@ -4,7 +4,8 @@
     "dock": "right"
   },
   "assistant": {
-    "dock": "left"
+    "dock": "left",
+    "version": "1"
   },
   "base_keymap": "VSCode",
   "buffer_font_family": "JetBrains Mono NL",
