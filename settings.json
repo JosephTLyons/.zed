@@ -5,7 +5,10 @@
   },
   "assistant": {
     "dock": "left",
-    "version": "1"
+    "version": "1",
+    "provider": {
+      "name": "zed.dev"
+    }
   },
   "base_keymap": "VSCode",
   "buffer_font_family": "JetBrains Mono NL",
@@ -33,21 +36,6 @@
     "hour_format": "hour12"
   },
   "language_overrides": {
-    "Uiua": {
-      "show_copilot_suggestions": false
-    },
-    "Plain Text": {
-      "show_copilot_suggestions": true
-    },
-    "Python": {
-      "format_on_save": "off",
-      "formatter": {
-        "external": {
-          "command": "black",
-          "arguments": ["-"]
-        }
-      }
-    },
     "C": {
       "tab_size": 4,
       "format_on_save": "off"
@@ -64,6 +52,18 @@
     },
     "JSON": {
       "tab_size": 2
+    },
+    "Plain Text": {
+      "show_copilot_suggestions": true
+    },
+    "Python": {
+      "format_on_save": "off",
+      "formatter": {
+        "external": {
+          "command": "black",
+          "arguments": ["-"]
+        }
+      }
     },
     "Markdown": {
       "format_on_save": "off",
@@ -162,8 +162,5 @@
     "experimental.theme_overrides": {
       "title_bar.background": "#e7a6a6"
     }
-  },
-  "file_types": {
-    "Gleam": ["x"]
   }
 }
