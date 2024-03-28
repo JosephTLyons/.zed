@@ -39,5 +39,17 @@
     "label": "echo filename",
     "command": "echo $ZED_FILE $ZED_SELECTED_TEXT",
     "use_new_terminal": true
+  },
+  {
+    "label": "Run python selection",
+    "command": "python3",
+    "args": ["-c", "\"$ZED_SELECTED_TEXT\""],
+    "use_new_terminal": false
+  },
+  {
+    "label": "Run python file",
+    "command": "python3",
+    "args": ["$ZED_FILE"],
+    "use_new_terminal": false
   }
 ]
